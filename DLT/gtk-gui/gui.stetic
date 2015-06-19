@@ -34,20 +34,6 @@
               </packing>
             </child>
             <child>
-              <widget class="Gtk.CheckButton" id="checkbutton1">
-                <property name="MemberName" />
-                <property name="CanFocus">True</property>
-                <property name="Label" translatable="yes">checkbutton1</property>
-                <property name="DrawIndicator">True</property>
-                <property name="HasLabel">True</property>
-                <property name="UseUnderline">True</property>
-              </widget>
-              <packing>
-                <property name="X">185</property>
-                <property name="Y">95</property>
-              </packing>
-            </child>
-            <child>
               <widget class="Gtk.SpinButton" id="spinbutton1">
                 <property name="MemberName" />
                 <property name="CanFocus">True</property>
@@ -61,6 +47,20 @@
               <packing>
                 <property name="X">287</property>
                 <property name="Y">30</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.CheckButton" id="checkbutton1">
+                <property name="MemberName" />
+                <property name="CanFocus">True</property>
+                <property name="Label" translatable="yes">checkbutton1</property>
+                <property name="DrawIndicator">True</property>
+                <property name="HasLabel">True</property>
+                <property name="UseUnderline">True</property>
+              </widget>
+              <packing>
+                <property name="X">110</property>
+                <property name="Y">163</property>
               </packing>
             </child>
           </widget>
